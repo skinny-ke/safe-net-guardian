@@ -1,0 +1,7 @@
+.safenet-highlight {
+    background-color: rgba(255, 107, 107, 0.2);
+    border-bottom: 2px dotted rgba(255, 107, 107, 0.7);
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+}

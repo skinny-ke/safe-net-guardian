@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNet Guardian</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="../styles/global.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="header">
+            <img src="../assets/logo.svg" alt="SafeNet Guardian Logo" class="logo">
+            <h1>SafeNet Guardian</h1>
+        </div>
+        <div class="toggle-section">
+            <label class="switch">
+                <input type="checkbox" id="safeModeToggle">
+                <span class="slider round"></span>
+            </label>
+            <span id="toggleStatusText">Safe Mode is OFF</span>
+        </div>
+        <div class="stats-section">
+            <h2>Protection Stats</h2>
+            <p>Detected Incidents: <span id="detectedIncidents">0</span></p>
+            <p>Last Scan: <span id="lastScanTime">Never</span></p>
+        </div>
+        <div class="footer">
+            <p>Empowering your online safety.</p>
+        </div>
+    </div>
+    <script src="popup.js" type="module"></script>
+</body>
+</html>
